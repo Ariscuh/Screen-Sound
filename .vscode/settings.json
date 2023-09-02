@@ -1,0 +1,8 @@
+{
+    "dotnet.defaultSolution": "ScreenSound.sln",
+    "python.testing.pytestArgs": [
+        "Modelos"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
