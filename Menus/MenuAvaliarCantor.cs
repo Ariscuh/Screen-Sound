@@ -17,9 +17,8 @@ internal class MenuAvaliarCantor : Menu
             Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!);
             cantor.AdicionarNota(nota);
             Console.WriteLine($"\nA nota {nota.Nota} foi registrada com sucesso para o(a) cantor(a) {nomeDoCantor}");
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
             Console.Clear();
-
         }
         else
         {

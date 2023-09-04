@@ -16,7 +16,8 @@ opcoes.Add(1, new MenuRegistrarCantor());
 opcoes.Add(2, new MenuRegistrarAlbum());
 opcoes.Add(3, new MenuMostrarCantoresRegistrados());
 opcoes.Add(4, new MenuAvaliarCantor());
-opcoes.Add(5, new MenuExibirDetalhes());
+opcoes.Add(5, new MenuAvaliarAlbum());
+opcoes.Add(6, new MenuExibirDetalhes());
 opcoes.Add(-1, new MenuSair());
 
 void ExibirLogo()
@@ -40,7 +41,8 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("Digite 2 para registrar o álbum de um(a) cantor(a)");
     Console.WriteLine("Digite 3 para mostrar todas os cantores(a)");
     Console.WriteLine("Digite 4 para avaliar um cantor(a)");
-    Console.WriteLine("Digite 5 para exibir os detalhes de um(a) cantor(a)");
+    Console.WriteLine("Digite 5 para avaliar um álbum");
+    Console.WriteLine("Digite 6 para exibir os detalhes de um(a) cantor(a)");
     Console.WriteLine("Digite -1 para sair");
 
     Console.Write("\nDigite a sua opção: ");

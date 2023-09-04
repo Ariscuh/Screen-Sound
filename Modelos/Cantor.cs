@@ -1,6 +1,6 @@
 ﻿namespace ScreenSound.Modelos;
 
-class Cantor
+internal class Cantor : IAvaliavel
 {
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "c:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "c:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\gonca\\.nuget\\packages\\",
-        "outputPath": "c:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\obj\\",
+        "outputPath": "C:\\C#\\ScreenSound-POO_Curso3\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gonca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

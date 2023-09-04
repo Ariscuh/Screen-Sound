@@ -15,10 +15,12 @@ internal class MenuExibirDetalhes : Menu
         {
             Cantor cantor = cantoresRegistrados[nomeDoCantor];
             Console.WriteLine($"\nA média do(a) cantor(a) {nomeDoCantor} é {cantor.Media}.");
-            /**
-            * ESPAÇO RESERVADO PARA COMPLETAR A FUNÇÃO
-            */
-            Console.WriteLine("Digite uma tecla para votar ao menu principal");
+            System.Console.WriteLine("\nDiscografia: ");
+            foreach(Album album in cantor.Albuns)
+            {
+                System.Console.WriteLine($"{album.Nome} -> {album.Media}");
+            } 
+            Console.WriteLine("Digite uma tecla para voltar ao menu principal");
             Console.ReadKey();
             Console.Clear();
 
